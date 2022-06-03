@@ -8,8 +8,8 @@
     <div ref="carouselInner" @mouseover="handleFocus(slide.id)" @mouseleave="handleFocus(slide.id)" :class="{active:index===0}"  class="carousel-item " :data-bs-interval="carousel.transitionDuration * 1000"  v-for="(slide,index) in slides" :key="slide.id" >
       <img :style="'object-fit:' + slide.imgFit +';height:64vh;max-height: 64vh;'" :src="slide.imgUrl" class="d-block w-100" alt="..." @click="removeBorder()">
       <div :style="'background:rgb('+slide.column.background.R+ ','+slide.column.background.G+','+ slide.column.background.B + ','+ slide.column.background.O+ ');border:'+slide.column.border+'px solid #808080;border-radius:'+ slide.column.borderRadius +'px;'+ 'transform:translate(' + slide.X + 'em,-'+slide.Y + 'em);'" class="carousel-caption d-none d-md-block">
-        <h5 contenteditable="true" @click="modifyText">{{slide.title}}</h5>
-        <p  contenteditable="true" @click="modifyText">{{slide.description}}</p>
+        <h5 @click="modifyText">{{slide.title}}</h5>
+        <p  @click="modifyText">{{slide.description}}</p>
       </div>
     </div>
 

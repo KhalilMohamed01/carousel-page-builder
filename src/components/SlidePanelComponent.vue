@@ -8,6 +8,24 @@
         </div>
         <div class="block-tools">
             <tr class="spaceUnder">
+                <td class="td-label">Title </td>
+                <td>
+                    <div style="max-width:150px;text-align:left;" class="custom-input">
+                        <input 
+                              v-model="slidesCopy[slideIndex-1].title" style="max-width:135px;" type="text" autocomplete="chrome-off" placeholder="" />
+                    </div>
+                </td>
+            </tr>
+            <tr class="spaceUnder">
+                <td class="td-label">Description </td>
+                <td>
+                    <div style="max-width:fit-content;text-align:left;" class="custom-input">
+                        <input 
+                              v-model="slidesCopy[slideIndex-1].description" style="max-width:135px;" type="text" autocomplete="chrome-off" placeholder="" />
+                    </div>
+                </td>
+            </tr>
+            <tr class="spaceUnder">
                 <td class="td-label">Image </td>
                 <td>
                     <div style="max-width:150px;text-align:left;" class="custom-input">

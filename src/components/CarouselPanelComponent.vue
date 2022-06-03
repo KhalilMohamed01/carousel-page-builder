@@ -5,7 +5,7 @@
         </div>
         <div class="block-tools">
             <tr class="spaceUnder">
-                <td class="td-label">Speed :</td>
+                <td class="td-label">Speed </td>
                 <td>
                     <div>
                         <div style="display:inline-block" class="custom-input">
@@ -21,7 +21,7 @@
 
             </tr>
             <tr class="spaceUnder">
-                <td class="td-label">Transition :</td>
+                <td class="td-label">Transition </td>
                 <td>
                     <select v-model="carouselCopy.transitionStyle" class="custom-select"
                         aria-label=".form-select-sm example">
@@ -38,7 +38,7 @@
                 </td>
             </tr>
             <tr class="spaceUnder">
-                <td class="td-label">Style :</td>
+                <td class="td-label">Arrow style </td>
                 <td>
                     <select v-model="carouselCopy.arrowStyle" class="custom-select"
                         aria-label=".form-select-sm example">

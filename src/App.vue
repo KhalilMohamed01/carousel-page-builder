@@ -38,7 +38,7 @@ export default {
             imgUrl:"https://www.pixelstalk.net/wp-content/uploads/2016/07/Free-Download-1080p-Full-HD-Images.jpg",
             imgFit:"cover",
             title:"This a title",
-            description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis expedita iusto odio beatae, laborum fuga eum facere culpa minus sequi?",
+            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis expedita iusto odio beatae, laborum fuga eum facere culpa minus sequi?",
             bgisOn:false,
             column:{ 
               hexcolor:"#FFFFFF",
@@ -55,7 +55,7 @@ export default {
             imgUrl:"https://www.pixelstalk.net/wp-content/uploads/2016/07/1080p-Full-HD-Images.jpg",
             imgFit:"cover",
             title:"This a title",
-            description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis expedita iusto odio beatae, laborum fuga eum facere culpa minus sequi?",
+            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis expedita iusto odio beatae, laborum fuga eum facere culpa minus sequi?",
             bgisOn:false,
 
             column:{ 
@@ -73,7 +73,7 @@ export default {
             imgUrl:"https://www.pixelstalk.net/wp-content/uploads/2016/07/1080p-Full-HD-Images-For-Desktop.jpg",
             imgFit:"cover",
             title:"This a title",
-            description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis expedita iusto odio beatae, laborum fuga eum facere culpa minus sequi?",
+            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis expedita iusto odio beatae, laborum fuga eum facere culpa minus sequi?",
             bgisOn:false,
             column:{ 
               hexcolor:"#FFFFFF",
@@ -160,7 +160,7 @@ export default {
             imgUrl:"https://www.pixelstalk.net/wp-content/uploads/2016/07/Free-Download-1080p-Full-HD-Images.jpg",
             imgFit:"cover",
             title:"This a title",
-            description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis expedita iusto odio beatae, laborum fuga eum facere culpa minus sequi?",         
+            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis expedita iusto odio beatae, laborum fuga eum facere culpa minus sequi?",         
             bgIsOn:false,
             column:{ 
               hexcolor:"#FFFFFF",
