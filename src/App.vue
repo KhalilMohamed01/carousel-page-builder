@@ -15,6 +15,7 @@
 </template>
 
 <script>
+
 import CarouselComponent from './components/CarouselComponent.vue';
 import SettingsComponent from './components/SettingsComponent.vue';
 
