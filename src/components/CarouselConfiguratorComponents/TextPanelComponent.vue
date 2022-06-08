@@ -3,7 +3,8 @@
                     <div class="block-title">
                         <i class="fa-solid fa-highlighter"></i> Text
                     </div>
-                    <div class="block-tools ">
+                    <div v-if="selectedText == null" class="block-tools "><center>Please select a text area</center></div>
+                    <div v-if="selectedText != null" class="block-tools ">
                         <div id="checkboxes" class="d-inline">
                             <input  @change="changeText('fw-bold')" type="checkbox" name="rGroup" value="1" id="r1" />
                             <label class="whatever" for="r1"><i class="fa-solid fa-bold"></i></label>

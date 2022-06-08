@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import CarouselPanelComponent from './CarouselPanelComponent.vue'
-import SlidePanelComponent from './SlidePanelComponent.vue'
-import TextPanelComponent from './TextPanelComponent.vue';
+import CarouselPanelComponent from './CarouselConfiguratorComponents/CarouselPanelComponent.vue'
+import SlidePanelComponent from './CarouselConfiguratorComponents/SlidePanelComponent.vue'
+import TextPanelComponent from './CarouselConfiguratorComponents/TextPanelComponent.vue';
 
 export default {
     props:['carousel','slides','slideIndex','selectedText'],
